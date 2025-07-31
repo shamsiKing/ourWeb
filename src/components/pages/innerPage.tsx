@@ -1,17 +1,19 @@
-import Marquee from "react-fast-marquee"
-import { Button } from "../ui/button"
-import { brandsRow1 } from "@/constants"
+import Marquee from "react-fast-marquee";
+import { Button } from "../ui/button";
+import { brandsRow1 } from "@/constants";
 
 const InnerPage = () => {
   return (
     <div className="w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-20 space-y-40">
         <div className="text-center justify-center items-center space-y-5">
-          <Button className="rounded-3xl w-50 bg-[#3b4eff] gap-2 px-6 py-4">
+          <Button
+            variant={"ghost"}
+            className="rounded-3xl w-50 bg-[#3b4eff] gap-2 px-6 py-4"
+          >
             <img
               src="https://cdn.prod.website-files.com/672aef24c0531e325c1a619e/67454e5d6398e79b4ca5a8b5_Webflow%20Icon.png"
               alt="Webflow Icon"
-              className=""
             />
             <h1 className="text-lg text-white">Inner Pages</h1>
           </Button>
@@ -44,7 +46,7 @@ const InnerPage = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default InnerPage
+export default InnerPage;

@@ -1,6 +1,6 @@
-import { Button } from "../ui/button"
-import { topNotchFeatures } from "@/constants"
-import { motion } from "framer-motion"
+import { Button } from "../ui/button";
+import { topNotchFeatures } from "@/constants";
+import { motion } from "framer-motion";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -12,11 +12,11 @@ const fadeInUp = {
       delay: i * 0.1,
     },
   }),
-}
+};
 
 const TopNotch = () => {
   return (
-    <div className="w-full bg-[#eee] dark:bg-black mt-40">
+    <div className="w-full bg-white dark:bg-black mt-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-20 space-y-20">
         {/* Header */}
         <motion.div
@@ -65,7 +65,7 @@ const TopNotch = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TopNotch
+export default TopNotch;
