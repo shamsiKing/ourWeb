@@ -57,3 +57,31 @@ function Button({
 }
 
 export { Button, buttonVariants }
+  <img
+            src="	https://cdn.prod.website-files.com/672aef24c0531e325c1a619e/674568a40a333feb916cb51b_Section%201.jpg"
+            alt="img1"
+          />
+          <img
+            src="	https://cdn.prod.website-files.com/672aef24c0531e325c1a619e/674568a4a89e7792c609c1a0_Section%206.jpg"
+            alt="img2"
+          />
+          <img
+            src="	https://cdn.prod.website-files.com/672aef24c0531e325c1a619e/674568a4f34075a836e8ed14_Section%203.jpg"
+            alt="img3"
+          />
+          <img
+            src="	https://cdn.prod.website-files.com/672aef24c0531e325c1a619e/674568a46c6544cb819a8d81_Section%204.jpg"
+            alt="img4"
+          />
+          <img
+            src="https://cdn.prod.website-files.com/672aef24c0531e325c1a619e/674568a43dec31b372f4ddcb_Section%205.jpg"
+            alt="img5"
+          />
+          <img
+            src="https://cdn.prod.website-files.com/672aef24c0531e325c1a619e/674568a43dec31b372f4ddcb_Section%205.jpg"
+            alt="img6"
+          />
+          <img
+            src="https://cdn.prod.website-files.com/672aef24c0531e325c1a619e/674568a40a333feb916cb49c_Section%207.jpg"
+            alt=""
+          />
